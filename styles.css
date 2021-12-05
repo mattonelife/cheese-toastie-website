@@ -74,7 +74,7 @@ body {
 /* Hover Zoom */
 
  .zoomA {
-    transition: transform ease-in-out 0.3s;
+    transition: transform ease-in-out 0.2s;
   }
 
   .zoomA:hover {
@@ -100,7 +100,7 @@ body {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
-  
+  }
   
   input[type=submit] {
     background-color: #ff2020;
@@ -134,7 +134,7 @@ body {
   
 
   .fa:hover {
-    opacity: 0.7;
+    color: #ddd;
   }
   
  
@@ -144,7 +144,7 @@ body {
   }
 
   .fa-facebook {
-    background: ##ff2020;
+    background: #ff2020;
     color: white;
   }
 
