@@ -1,0 +1,83 @@
+/* Whole Site */
+
+body {
+    font-family: Verdana, sans-serif;
+  }
+
+  /* Page Header */
+
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #ff2020;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .inline-block {
+    display: inline-block;
+ }  
+
+/* Navigation Bar */
+
+.topnav {
+    background: #ff2020;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    color: white;
+  }
+  
+/* Horizontal Image Stack */
+
+* {
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+}
+
+.row::after{
+    content: "";
+    padding: table;
+    clear: both;
+}
+
+/* Hover Zoom */
+
+ .zoomA {
+    transition: transform ease-in-out 0.3s;
+  }
+
+  .zoomA:hover {
+    transform: scale(1.02);
+  }
+
+  /* Home Page Quote */
+
+  .quote {
+      text-align: center;
+      font-size: 30px;
+      font-style: italic;
+
+  }
